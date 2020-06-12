@@ -121,3 +121,39 @@ a{
 a:hover{
   color: #4E2A84;
 }
+
+@media screen and (max-width: 1000px) {
+  .main-text{
+    width: 90vw;
+  }
+  .title-text{
+    margin-top: 30%;
+    width: 90vw;
+    font-size: 9em;
+  }
+  .active{
+    margin-top: 10%;
+  }
+  .enter-button{
+    /* padding: 3em; */
+    width: 50vw;
+    font-size: 3em;
+  }
+  .navbar{
+    /* display: none; */
+    height: 6em;
+    top: -6em;
+  }
+  .nav-active{
+    top: 0;
+  }
+  .nav-item{
+    font-size: 200%;
+    width: auto;
+    margin-top: 25%;
+    padding: 1em;
+  }
+  .nav-menu{
+    width: 100%;
+  }
+}
