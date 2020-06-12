@@ -124,7 +124,8 @@ a:hover{
 
 @media screen and (max-width: 1000px) {
   .main-text{
-    width: 90vw;
+    width: 80vw;
+    font-size: 2em;
   }
   .title-text{
     margin-top: 30%;
@@ -132,7 +133,7 @@ a:hover{
     font-size: 9em;
   }
   .active{
-    margin-top: 10%;
+    margin-top: 1%;
   }
   .enter-button{
     /* padding: 3em; */
@@ -140,20 +141,7 @@ a:hover{
     font-size: 3em;
   }
   .navbar{
-    /* display: none; */
-    height: 6em;
-    top: -6em;
-  }
-  .nav-active{
-    top: 0;
-  }
-  .nav-item{
-    font-size: 200%;
-    width: auto;
-    margin-top: 25%;
-    padding: 1em;
-  }
-  .nav-menu{
-    width: 100%;
+    display: none;
+
   }
 }
