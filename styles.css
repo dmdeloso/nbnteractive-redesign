@@ -183,8 +183,9 @@ a:hover{
   .enter-button{
     /* padding: 3em; */
     width: 50vw;
-    font-size: 3em;
+    font-size: 1em;
   }
+  .button-active{}
   .navbar{
     /* display: none; */
 
