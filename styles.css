@@ -3,7 +3,7 @@
   left: 0;
   right: 0;
   top: -8em;
-  height: 2em;
+  height: 3em;
   padding-top: 1em;
   padding-bottom: 1em;
   background-color: black;
@@ -19,10 +19,11 @@
 }
 .nav-item{
   margin-right: 1em;
+  font-size: 1.5em;
   font-family: 'Cairo', sans-serif;
   /* margin-top: 20%; */
   position: relative;
-  bottom: 1em;
+  bottom: .5em;
   list-style-type: none;
   color: white;
   display: inline;
@@ -74,7 +75,7 @@ body{
   /* margin-top: 20%; */
   margin: 15% auto 0 auto;
   opacity: 0;
-  font-size: 5em;
+  font-size: 7em;
   font-family: 'Cairo', sans-serif;
 
   animation: fade-in 4s ease forwards;
@@ -154,7 +155,7 @@ to{
 .main-text{
   text-align: justify;
   font-family: 'Roboto Slab', serif;
-  font-size: 20px;
+  font-size: 2em;
   width: 30vw;
   margin: auto;
   position: relative;
@@ -204,7 +205,10 @@ a:hover{
     width: 50vw;
   }
 .enter-text{
-  font-size: 3em;
+  font-size: 5vw;
+  position: relative;
+  bottom: .5em;
+  /* top: 10%; */
 }
   .button-active{}
   .navbar{
