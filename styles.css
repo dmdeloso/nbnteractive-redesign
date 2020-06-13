@@ -79,9 +79,16 @@ body{
 
   animation: fade-in 4s ease forwards;
   animation-delay: .5s;
-  color: white;
-   -webkit-text-stroke: 1px black;
+  /* color: white; */
+  color: black;
+   /* -webkit-text-stroke: 1px black; */
    transition: margin 1s;
+}
+@supports (-webkit-text-stroke: 1px black) {
+  .title-text{
+    -webkit-text-stroke: 1px black;
+    color: white;
+  }
 }
 .active{
   margin: 5% auto 0 auto;
