@@ -2,8 +2,10 @@
   /* position: relative; */
   left: 0;
   right: 0;
-  top: -3em;
-  height: 3em;
+  top: -8em;
+  height: 2em;
+  padding-top: 1em;
+  padding-bottom: 1em;
   background-color: black;
   position: fixed;
   transition: top 1s ease;
@@ -15,7 +17,9 @@
 .nav-item{
   margin-right: 1em;
   font-family: 'Cairo', sans-serif;
-
+  /* margin-top: 20%; */
+  position: relative;
+  bottom: 1em;
   list-style-type: none;
   color: white;
   display: inline;
@@ -28,15 +32,36 @@
   display: inline;
   position: absolute;
   margin-left: 0
+  height: 100%
 }
 .nbn-logo-nav{
   margin: auto auto auto .5em;
-  height: 90%;
+  height: 100%;
   fill: white;
   display: inline;
+  transition: fill 1s ease;
+}
+.nbn-logo-nav:hover{
+  fill: #836EAA
 }
 body{
   /* overflow: hidden; */
+  overflow-x: hidden;
+
+}
+::-webkit-scrollbar-track{
+  background: white;
+}
+::-webkit-scrollbar{
+  width: 10px;
+  z-index: 0;
+}
+::-webkit-scrollbar-thumb{
+  background: #888;
+  border-radius: 5px;
+}
+::-webkit-scrollbar-thumb:hover{
+  background: #555;
 }
 .title-text{
   position: relative;
@@ -73,7 +98,13 @@ to{
   opacity: 0;
 }
 }
-
+.pageTurn{
+  display: block;
+  animation: fade-out .5s ease forwards;
+}
+.turning{
+  animation: fade-in .5s ease forwards;
+}
 .enter-button{
   color: black;
   padding: 1em;
@@ -112,8 +143,10 @@ to{
   display: none;
   opacity: 0;
 }
+.text-display{
+    display: block;
+}
 .text-active{
-  display: block;
   animation: fade-in 1s ease forwards;
   animation-delay: 1s;
 }
@@ -153,4 +186,8 @@ a:hover{
     display: none;
 
   }
+}
+.alumni-twitter-list{
+  text-align: left;
+  list-style: none;
 }
