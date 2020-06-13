@@ -11,6 +11,9 @@
   transition: top 1s ease;
   z-index: 1;
 }
+.mobile-burger{
+  display: none;
+}
 .nav-active{
   top: 0;
 }
