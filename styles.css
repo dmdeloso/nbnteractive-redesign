@@ -64,6 +64,7 @@ body{
   background: #555;
 }
 .title-text{
+  user-select: none;
   position: relative;
   top: 0;
   width: 50vw;
