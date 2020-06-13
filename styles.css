@@ -158,7 +158,10 @@ a{
 a:hover{
   color: #4E2A84;
 }
-
+.alumni-twitter-list{
+  text-align: left;
+  list-style: none;
+}
 @media screen and (max-width: 1000px) {
   body{
     overflow-y: scroll;
@@ -183,11 +186,7 @@ a:hover{
     font-size: 3em;
   }
   .navbar{
-    display: none;
+    /* display: none; */
 
   }
-}
-.alumni-twitter-list{
-  text-align: left;
-  list-style: none;
 }
