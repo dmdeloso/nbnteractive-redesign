@@ -5,11 +5,13 @@ let navLatest = document.querySelector('#latest');
 let navJoin = document.querySelector('#join');
 let navAlum = document.querySelector('#alumni');
 let navWork = document.querySelector('#multimedia');
+let burgerMenu = document.querySelector('.mobile-burger');
 button.onclick = function() {pageHeader.classList.add('active');
 button.classList.add('button-active');
 mainText.classList.add('text-display');
 mainText.classList.add('text-active');
-document.querySelector('.navbar').classList.add('nav-active')};
+document.querySelector('.navbar').classList.add('nav-active');
+burgerMenu.classList.add("burger-active")};
 
 const pageList = [
   {title: "NBN Interactive",
@@ -57,6 +59,8 @@ const pageList = [
 ];
 
 const pageNav = (target) => {
+  document.querySelector('.navbar').classList.toggle("mobile-active-nav");
+  burgerMenu.classList.toggle("menu-active");
   if (pageHeader.classList.contains("turning")) {
     pageHeader.classList.replace("turning", "pageTurn");
     mainText.classList.replace("turning", "pageTurn");
@@ -83,3 +87,5 @@ navLatest.onclick = function(){pageNav(pageList[0]);};
 navJoin.onclick = function(){pageNav(pageList[1]);};
 navAlum.onclick = function(){pageNav(pageList[2]);};
 navWork.onclick = function(){pageNav(pageList[3]);};
+
+burgerMenu.onclick = function(){document.querySelector('.navbar').classList.toggle("mobile-active-nav"); burgerMenu.classList.toggle("menu-active");}

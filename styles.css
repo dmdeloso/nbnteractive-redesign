@@ -135,6 +135,7 @@ to{
   width: 100vw;
 }
 .main-text{
+  text-align: justify;
   font-family: 'Antic Slab', serif;
   font-size: 20px;
   width: 30vw;
@@ -188,7 +189,64 @@ a:hover{
   }
   .button-active{}
   .navbar{
-    /* display: none; */
+      /* position: relative; */
+      left: -50vw;
+      top: 0;
+      bottom: 0;
+      right: unset !important;
+      width: 40vw;
+      height: 100vh;
+      padding-top: 1em;
+      padding-bottom: 1em;
+      background-color: black;
+      position: fixed;
+      transition: left .5s ease;
+      z-index: 1;
+      padding-right: 1em;
+    }
+    .mobile-active-nav{
+      left: 0;
+    }
+    .nbn-logo-nav{
+      width: 80%;
+      height: 20%;
+      margin: 20% 10%;
+    }
+    .nav-menu{
+      display: flex;
+      flex-direction: column;
+      height: 50vh;
+      margin-top: 0vh;
+      justify-content: space-evenly;
+    }
+    .nav-item{
+      /* display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      font-size: 5vw; */
+      font-size: 7vw;
+    }
+    .mobile-burger{
+      position: absolute;
+      z-index: 10;
+      width: 5vh;
+      height: 5vh;
+      /* background-color: blue; */
+      top: 1vh;
+      left: -10vw;
+      transition: left 1s ease;
+    }
+    .burger-active{
+      left: 1vw;
+    }
+    .menu-close{
+      display: none;
+    }
+    .menu-active .menu-close{
+      display: block;
+    }
 
+    .menu-active .burger-icon{
+      display: none;
+    }
   }
-}
