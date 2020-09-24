@@ -21,7 +21,7 @@ const pageList = [
   <p>Our team builds software in the context of journalism. We create storytelling tools for our newsroom and interactive experiences for our readers using modern web development tools, data, design and more.</p>
 
   <p>The team is currently led by David Deloso and Stephanie Zhu.</p>
-  <p>David is a third-year studying Journalism, Design and Asian American Studies, and has previously served as NBN's editor-in-chief. He spent his summer working as Web Director for N3Mag, an annual magazine published by AAJA-Asia.</p>
+  <p>David is a third-year studying Journalism, Design and Asian American Studies, and has previously served as NBN's editor-in-chief. He spent his summer working as Web Director for <a href="https://n3con.com/magazine/" target="_blank">N3Mag, an annual magazine published by AAJA-Asia.</a></p>
   <p>Stephanie is a third-year studying Journalism, Computer Science and Design, and has previously served as NBN mag's Creative Director. She spent her summer as a design intern at Paravane Ventures.</p>`},
     {
       title: "Join Us",
