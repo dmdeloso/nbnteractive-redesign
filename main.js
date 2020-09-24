@@ -16,19 +16,17 @@ burgerMenu.classList.add("burger-active")};
 const pageList = [
   {title: "NBN Interactive",
   header: "nbn interactive.",
-  content: `  <p>We are the interactive section of <a href="http://northbynorthwestern.com/" target="_blank">North by Northwestern</a>, a student publication based out of Northwestern University.</p>
+  content: `      <p>We are the interactive section of <a href="http://northbynorthwestern.com/" target="_blank">North by Northwestern</a>, a student publication based out of Northwestern University.</p>
 
-    <p>Our team builds software in the context of journalism. We create storytelling tools for our newsroom and interactive experiences for our readers using modern web development tools, data, design and more.</p>
+  <p>Our team builds software in the context of journalism. We create storytelling tools for our newsroom and interactive experiences for our readers using modern web development tools, data, design and more.</p>
 
-    <p>The team is currently led by Audrey DeBruine and Maxine Whitely.</p>
-
-    <p>Audrey is a senior double majoring in journalism and statistics. She spent her summer at the San Francisco Chronicle as an Interactive Intern.</p>
-
-    <p>Maxine is a junior studying computer science. She spent her summer as a Software Engineering Intern at GitHub and her fall as an Interactive News Developer Intern at the New York Times.</p>`},
+  <p>The team is currently led by David Deloso and Stephanie Zhu.</p>
+  <p>David is a third-year studying Journalism, Design and Asian American Studies, and has previously served as NBN's editor-in-chief. He spent his summer working as Web Director for N3Mag, an annual magazine published by AAJA-Asia.</p>
+  <p>Stephanie is a third-year studying Journalism, Computer Science and Design, and has previously served as NBN mag's Creative Director. She spent her summer as a design intern at Paravane Ventures.</p>`},
     {
       title: "Join Us",
       header: "our team.",
-      content: `<p>We are always accepting applications for contributors to the section. Read more about the role below and apply here. Once you fill out the application form, you will be added to a Slack channel and an email list where story opportunities and other information related to the section will be shared.</p>`
+      content: `<p>We are always accepting applications for contributors to the section. Our weekly meetings are held every Sunday at 3:30 p.m. CST over Zoom. Email David (daviddeloso2022@u.northwestern.edu) and Stephanie (jiaruizhu2022@u.northwestern.edu) to join our listserv and recieve the recurring Zoom link!</p>`
 
     },
     {
@@ -36,24 +34,54 @@ const pageList = [
       header: "our alumni.",
       content: `<p>In no particular order, here are the Twitters of some of our awesome alumni. They've worked at places like ProPublica, The New York Times, POLITICO, 538, The Washington Post, NPR, and more.</p>
       <ul class="alumni-twitter-list">
-        <li><span class="purple"><a class="no-style" href="https://twitter.com/giratikanon">@giratikanom</a></span></li>
-        <li><span class="purple"><a class="no-style" href="https://twitter.com/denisedslu">@denisedslu</a></span></li>
-        <li><span class="purple"><a class="no-style" href="https://twitter.com/_mazhang">@_mazhang</a></span></li>
-        <li><span class="purple"><a class="no-style" href="https://twitter.com/guswez">@guswez</a></span></li>
-        <li><span class="purple"><a class="no-style" href="https://twitter.com/nicolelzhu">@nicolelzhu</a></span></li>
-        <li><span class="purple"><a class="no-style" href="https://twitter.com/tylrfishr">@tylrfishr</a></span></li>
-        <li><span class="purple"><a class="no-style" href="https://twitter.com/asduner">@asduner</a></span></li>
-        <li><span class="purple"><a class="no-style" href="https://twitter.com/sisiwei">@sisiwei</a></span></li>
-        <li><span class="purple"><a class="no-style" href="https://twitter.com/lisagartner">@lisagartner</a></span></li>
-        <li><span class="purple"><a class="no-style" href="https://twitter.com/alexcampbell">@alexcampbell</a></span></li>
-        <li><span class="purple"><a class="no-style" href="https://twitter.com/kkrebeccalai">@kkrebeccalai</a></span></li>
-        <li><span class="purple"><a class="no-style" href="https://twitter.com/eschow">@eschow</a></span></li>
+        <li><span class="purple"><a class="no-style" target="_blank" href="https://twitter.com/giratikanon">@giratikanom</a></span></li>
+        <li><span class="purple"><a class="no-style" target="_blank" href="https://twitter.com/denisedslu">@denisedslu</a></span></li>
+        <li><span class="purple"><a class="no-style" target="_blank" href="https://twitter.com/_mazhang">@_mazhang</a></span></li>
+        <li><span class="purple"><a class="no-style" target="_blank"href="https://twitter.com/guswez">@guswez</a></span></li>
+        <li><span class="purple"><a class="no-style" target="_blank"href="https://twitter.com/nicolelzhu">@nicolelzhu</a></span></li>
+        <li><span class="purple"><a class="no-style" target="_blank"href="https://twitter.com/tylrfishr">@tylrfishr</a></span></li>
+        <li><span class="purple"><a class="no-style" target="_blank"href="https://twitter.com/asduner">@asduner</a></span></li>
+        <li><span class="purple"><a class="no-style" target="_blank"href="https://twitter.com/sisiwei">@sisiwei</a></span></li>
+        <li><span class="purple"><a class="no-style" target="_blank"href="https://twitter.com/lisagartner">@lisagartner</a></span></li>
+        <li><span class="purple"><a class="no-style" target="_blank" href="https://twitter.com/alexcampbell">@alexcampbell</a></span></li>
+        <li><span class="purple"><a class="no-style" target="_blank"href="https://twitter.com/kkrebeccalai">@kkrebeccalai</a></span></li>
+        <li><span class="purple"><a class="no-style" target="_blank"href="https://twitter.com/eschow">@eschow</a></span></li>
+        <li><span class="purple"><a class="no-style" target="_blank"href="https://twitter.com/acdebruine">@acdebruine</a></span></li>
+        <li><span class="purple"><a class="no-style" target="_blank"href="https://twitter.com/maxine_whitely">@maxine_whitely</a></span></li>
       </ul>`
     },
     {
       title: "Our Work",
       header: "our work.",
-      content: "<p>WIP</p>"
+      content: `<p>Below are a few of our recent interactive stories! More can be found at <a href="https://northbynorthwestern.com/">northbynorthwestern.com</a></p>
+      <div class="work-container">
+          <a href="https://northbynorthwestern.com/first-contact/" target="_blank" class="work-link">
+            <div class="work-item">
+              <div class="work-thumb"  style="background-image: url('img/firstcontact.png')"></div>
+              <p class="work-hed">First Contact</p>
+            </div>
+          </a>
+          <a href="https://northbynorthwestern.com/housing-guide-2020/" target="_blank" class="work-link">
+            <div class="work-item">
+              <div class="work-thumb"  style="background-image: url('img/housing.jpg')"></div>
+              <p class="work-hed">Housing Guide 2020</p>
+            </div>
+          </a>
+          <a href="https://northbynorthwestern.com/buildings-ranked/" target="_blank" class="work-link">
+            <div class="work-item">
+              <div class="work-thumb"  style="background-image: url('img/deeringthumb.jpg')"></div>
+              <p class="work-hed">NU Buildings Ranked
+              </p>
+            </div>
+          </a>
+          <a href="https://northbynorthwestern.com/street-carts/" target="_blank" class="work-link">
+            <div class="work-item">
+              <div class="work-thumb"  style="background-image: url('img/carts.jpg")></div>
+              <p class="work-hed">Street carts
+              </p>
+            </div>
+          </a>
+      </div>`
     }
 
 ];
