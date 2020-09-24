@@ -218,14 +218,14 @@ a:hover{
   }
   .main-text{
     width: 80vw;
-    font-size: 3em;
+    font-size: 1.3em;
   }
   .title-text{
     -webkit-text-stroke: initial;
     color: black;
     margin-top: 30%;
     width: 100vw;
-    font-size: 8em;
+    font-size: 3em;
   }
   .active{
     margin-top: 1%;
@@ -274,6 +274,7 @@ a:hover{
       justify-content: space-evenly;
     }
     .nav-item{
+      line-height: 1em;
       /* display: flex;
       flex-direction: column;
       justify-content: space-between;
@@ -292,7 +293,9 @@ a:hover{
       transition: left 1s ease;
     }
     .burger-active{
-    display: none;
+    /* display: none; */
+    left: 1vw;
+    position: fixed !important;
     }
     .menu-close{
       display: none;
