@@ -26,7 +26,7 @@ const pageList = [
     {
       title: "Join Us",
       header: "our team.",
-      content: `<p>We are always accepting applications for contributors to the section. Our weekly meetings are held every Sunday at 3:30 p.m. CST over Zoom. Email David (daviddeloso2022@u.northwestern.edu) and Stephanie (jiaruizhu2022@u.northwestern.edu) to join our listserv and recieve the recurring Zoom link!</p>`
+      content: `<p>We are always accepting applications for contributors to the section. No experience is necessary, but a willingness to learn web tools (HTML, CSS and JavaScript) is! Our weekly meetings are held every Sunday at 3:30 p.m. CST over Zoom. <br> <br> <a href="https://forms.gle/Tg1UKSLbAaiw8t8VA" target="_blank">Fill out this form to join our listserv and recieve the Zoom link when we meet!</a></p>`
 
     },
     {
